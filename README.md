@@ -1,7 +1,5 @@
 # Lasso Regression L1  (Least Absolute Shrinkage and Selection Operator)
 
-# 📊 Lasso Regression (L1) — Project Overview
-
 Welcome! This project provides a **clear and beginner-friendly explanation** of **Lasso Regression (L1 regularization)**, using intuitive examples and technical breakdowns — available in both **English and Spanish**.
 
 ---
@@ -80,8 +78,9 @@ Use Lasso when you:
 ## 🗣️ Multilingual Support
 
 This project is designed to be **accessible to a wider audience**. All core explanations are available in both:
-- <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/20px-Flag_of_the_United_Kingdom.svg.png" alt="Reino Unido" width="30" height="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; English: **[theory_english.ipynb](theory_english.ipynb)** 
-- <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/20px-Flag_of_Spain.svg.png" alt="España" width="30" height="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spanish: **[teoria_español.ipynb](teoria_español.ipynb)**
+- <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/20px-Flag_of_the_United_Kingdom.svg.png" alt="Reino Unido" width="30" height="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; English:  
+ **[theory_english.ipynb](theory_english.ipynb)** 
+- <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/20px-Flag_of_Spain.svg.png" alt="España" width="30" height="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spanish:   **[teoria_español.ipynb](teoria_español.ipynb)**
 
 ---
 
