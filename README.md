@@ -17,17 +17,11 @@ Welcome! This project provides a **clear and beginner-friendly explanation** of 
 
 The Lasso cost function looks like this:
 
-$$
-\text{Cost} = \frac{1}{2n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^{p} |\beta_j|
-$$
+$$ \min_{\beta} \left\{ \sum_{i=1}^{n} (y_i - \beta_0 - \sum_{j=1}^{p} x_{ij} \beta_j)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \right\} $$
 
 **Explanation**:
-- $n$: Number of data points (examples)
-- $p$: Number of features (predictors)
-- $y_i$: Actual output (e.g., true sales)
-- $\hat{y}_i$: Predicted output by the model
-- $\beta_j$: Coefficients (weights) assigned to each feature
-- $\lambda$: Regularization parameter (controls how strongly we penalize large coefficients)
+
+It minimizes the difference between actual and predicted values while penalizing the absolute magnitude of the coefficients to simplify the model and select important variables.
 
 ---
 
