@@ -17,10 +17,8 @@ Welcome! This project provides a **clear and beginner-friendly explanation** of 
 
 The Lasso cost function looks like this:
 
-$$
-\min_{\beta} \left\{ \sum_{i=1}^{n} (y_i - \beta_0 - \sum_{j=1}^{p} x_{ij} \beta_j)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \right\}
-$$
-
+(min over β)
+   [ Σᵢ=1ⁿ (yᵢ − β₀ − Σⱼ=1ᵖ xᵢⱼ · βⱼ)² ] + λ · Σⱼ=1ᵖ |βⱼ|
 **Explanation**:
 
 It minimizes the difference between actual and predicted values while penalizing the absolute magnitude of the coefficients to simplify the model and select important variables.
