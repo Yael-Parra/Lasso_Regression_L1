@@ -19,6 +19,7 @@ The Lasso cost function looks like this:
 
 (min over β)
    [ Σᵢ=1ⁿ (yᵢ − β₀ − Σⱼ=1ᵖ xᵢⱼ · βⱼ)² ] + λ · Σⱼ=1ᵖ |βⱼ|
+
 **Explanation**:
 
 It minimizes the difference between actual and predicted values while penalizing the absolute magnitude of the coefficients to simplify the model and select important variables.
