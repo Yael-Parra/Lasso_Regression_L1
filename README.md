@@ -17,9 +17,9 @@ Welcome! This project provides a **clear and beginner-friendly explanation** of 
 
 The Lasso cost function looks like this:
 
-``` bash
-$$ \min_{\beta} \left\{ \sum_{i=1}^{n} (y_i - \beta_0 - \sum_{j=1}^{p} x_{ij} \beta_j)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \right\} $$
-```
+$$
+\min_{\beta} \left\{ \sum_{i=1}^{n} (y_i - \beta_0 - \sum_{j=1}^{p} x_{ij} \beta_j)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \right\}
+$$
 
 **Explanation**:
 
