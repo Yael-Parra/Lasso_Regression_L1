@@ -8,5 +8,5 @@ dependencies = [
     "jupyter>=1.1.1",
     "nbconvert>=7.16.6",
     "notebook>=7.3.3",
-    "pandoc>=2.4",
+    "playwright>=1.51.0",
 ]
