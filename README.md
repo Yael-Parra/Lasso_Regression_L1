@@ -17,9 +17,9 @@ Welcome! This project provides a **clear and beginner-friendly explanation** of 
 
 The Lasso cost function looks like this:
 
-$$
-\min_{\beta} \left\\{ \sum_{i=1}^{n} \Big(y_i - \beta_0 - \sum_{j=1}^{p} x_{ij}\beta_j\Big)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \right\\}
-$$
+```math
+\min_{\beta} \left\{ \sum_{i=1}^{n} \Big(y_i - \beta_0 - \sum_{j=1}^{p} x_{ij}\beta_j\Big)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \right\}
+```
 
 where $\lambda \ge 0$ controls the strength of the penalty (scikit-learn calls it `alpha`). The intercept $\beta_0$ is not penalized, and predictors should be standardized before fitting.
 
