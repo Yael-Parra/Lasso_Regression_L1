@@ -1,12 +1,20 @@
 [project]
 name = "lasso-regression-l1"
 version = "0.1.0"
-description = "Add your description here"
+description = "Beginner-friendly explanation of Lasso (L1) regression in English and Spanish, with a scikit-learn example."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "jupyter>=1.1.1",
-    "nbconvert>=7.16.6",
-    "notebook>=7.3.3",
-    "playwright>=1.51.0",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "seaborn>=0.13",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+# Only needed to export the notebooks to PDF (jupyter nbconvert --to webpdf)
+pdf = [
+    "nbconvert[webpdf]>=7.16.6",
 ]

@@ -17,8 +17,11 @@ Welcome! This project provides a **clear and beginner-friendly explanation** of 
 
 The Lasso cost function looks like this:
 
-(min over β)
-   [ Σᵢ=1ⁿ (yᵢ − β₀ − Σⱼ=1ᵖ xᵢⱼ · βⱼ)² ] + λ · Σⱼ=1ᵖ |βⱼ|
+$$
+\min_{\beta} \left\\{ \sum_{i=1}^{n} \Big(y_i - \beta_0 - \sum_{j=1}^{p} x_{ij}\beta_j\Big)^2 + \lambda \sum_{j=1}^{p} |\beta_j| \right\\}
+$$
+
+where $\lambda \ge 0$ controls the strength of the penalty (scikit-learn calls it `alpha`). The intercept $\beta_0$ is not penalized, and predictors should be standardized before fitting.
 
 **Explanation**:
 
@@ -46,10 +49,12 @@ For example:
 
 ## 📁 Files Included
 
-| File Name           | Language | Description                                 |
-|---------------------|----------|---------------------------------------------|
-| `theory_english.md` | English  | Full explanation of Lasso Regression in English |
-| `teoria_español.md` | Spanish  | Explicación completa de la Regresión Lasso en español |
+| File | Language | Description |
+|------|----------|-------------|
+| [`theory_english.ipynb`](theory_english.ipynb) | English | Full explanation of Lasso Regression |
+| [`teoria_español.ipynb`](teoria_español.ipynb) | Spanish | Explicación completa de la Regresión Lasso |
+| [`teoria_español.pdf`](teoria_español.pdf) | Spanish | PDF export of the Spanish theory notebook |
+| [`ejemplo_lasso.ipynb`](ejemplo_lasso.ipynb) | Spanish | Practical example with scikit-learn `LassoCV` on the `tips` dataset |
 
 ---
 
@@ -65,6 +70,7 @@ Use Lasso when you:
 ## 🚀 Next Steps
 
 - Explore the theory files for deeper understanding
+- Run the practical example [`ejemplo_lasso.ipynb`](ejemplo_lasso.ipynb) (`pip install -r requirements.txt`)
 - Try applying Lasso on real datasets (e.g., with scikit-learn)
 - Experiment with different $\lambda$ values to see their effect on feature selection
 

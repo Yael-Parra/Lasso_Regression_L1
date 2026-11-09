@@ -2,3 +2,6 @@
 .python-version
 main.py
 uv.lock
+.ipynb_checkpoints/
+__pycache__/
+.env
